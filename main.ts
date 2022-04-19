@@ -13,7 +13,7 @@ function cargarSeries(series: Serie[]): void{
         let trElement = document.createElement("tr");
         trElement.innerHTML = 
             `<td>${serie.id}</td>
-            <td><a href="${serie.link}">${serie.title}</a></td>
+            <td>${serie.link}">${serie.title}</td>
             <td>${serie.channel}</td>
             <td>${serie.seasons}</td>`;
         seriesTbody.appendChild(trElement);
